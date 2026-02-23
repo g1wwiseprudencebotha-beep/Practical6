@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+<head>
+     <title>Encapsulation</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+
+<h1>Encapsulation</h1>
+
+<p>Encapsulation hides data using private variables.</p>
+
+<pre>
+class Person{
+    private string name;
+
+    public void setName(String n){
+    name=n;
+}
+
+public String getName(){
+    return name;
+ }
+}
+</pre>
+
+<a href="index.html">Back Home</a>
+
+</body>
+</html>
