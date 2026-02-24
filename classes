@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classes in OOP<title>
+    <link rel="stylesheet"herf="style.css">
+<head>
+<body>
+
+<h1>Classes in OOP<h1>
+
+<p>A class is a blueprint for creating object.<p>
+
+<pre>
+class Student{
+    String name;
+    int age;
+
+    void study(){
+        System.out.print(name +"is studying");
+    }
+}
+<pre>
+
+<a herf="index.html">Back Home<a>
+
+<body>
+<html>
