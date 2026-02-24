@@ -5,23 +5,29 @@
     <link rel="stylesheet"herf="style.css">
 <head>
 <body>
+ 
+<header>   
+<h1>Classes<h1>
+<header>
 
-<h1>Classes in OOP<h1>
+<section>
+    <h2>What is a Class?<h2>
+    <p>
+       A class is a blueprint for creating objects.
+    <p>
 
-<p>A class is a blueprint for creating object.<p>
-
-<pre>
-class Student{
-    String name;
-    int age;
-
-    void study(){
-        System.out.print(name +"is studying");
+     <h3>Java Example:<h3>
+        <pre>
+    Class Car{
+        String brand;
+        int speed;  
+    
+    void drive() {
+        System.out.print("The car is driving");
     }
 }
-<pre>
+    <pre>
+    <section>
 
-<a herf="index.html">Back Home<a>
-
-<body>
-<html>
+    <body>
+    <html>
