@@ -9,7 +9,7 @@
 /* Body */
 body {
     background: liner-gradient(to right, #1f4037, #99f2c8);
-    color: white;
+    color: rgb(12, 11, 11);
     text-align: center;
 }
 /* Header */
