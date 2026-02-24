@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inharintance - OOP</title>
+  <link rel="stylesheets" href="css/style.css">
+</head>
+<body>
+<header> 
+   <h1 class="animate-fade">inheritance</h1>
+  <nav class="animate-slide">
+    <a href="index.html">Home</a>
+   <a href="classes.html">Classes</a>
+   <a href="encpasculation.html">Encapsulation</a>
+   <a herf="inhertitance.html">Inhertitance</a>
+   <a href="polymorphism.html">Polymorphism</a>
+   <a href="abstract.html">Abstraction</a>
+ </nav>  
+</header>
+
+<section class="animate-fade">
+  <h2>Inherintance</h2>
+  <p>Inherintance allows a class to acquire properties and methods from another class.</p>
+
+  <h3>Example:</h3>
+  <pre>
+class vehicle {
+  int speed;
+}
+class Car extends Vehicle {
+  int wheels;
+
+}
+ </pre>
+</section>
+</body>
+</html>
