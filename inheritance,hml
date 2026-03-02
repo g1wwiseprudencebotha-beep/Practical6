@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Inharintance - OOP</title>
@@ -7,14 +7,14 @@
 </head>
 <body>
 <header> 
-   <h1 class="animate-fade">inheritance</h1>
+  <h1 class="animate-fade">inheritance</h1>
   <nav class="animate-slide">
-    <a href="index.html">Home</a>
+  <a href="index.html">Home</a>
    <a href="classes.html">Classes</a>
    <a href="encpasculation.html">Encapsulation</a>
    <a herf="inhertitance.html">Inhertitance</a>
    <a href="polymorphism.html">Polymorphism</a>
-   <a href="abstract.html">Abstraction</a>
+   <a href="abstraction.html">Abstraction</a>
  </nav>  
 </header>
 
@@ -27,9 +27,9 @@
 class vehicle {
   int speed;
 }
+
 class Car extends Vehicle {
   int wheels;
-
 }
  </pre>
 </section>
