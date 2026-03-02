@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Abstarction</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
     <header>
@@ -19,20 +19,62 @@
     </header>
     <section class="animate-fade">
         <h2>Abstraction</h2>
-        <p>Abstraction hides implementation details and shows only functionality to the user.</p>
+        <p>Abstraction hides implementation details and shows only functionality to the user.It is
+            one of the four main principles of Object-Orinted Programming.The user interacts with 
+            the object without knowing how it works internally.This makes programs easier to use,
+            uderstand and maintain.
+        </p>
+    </section>
 
-        <h3>Example:</h3>
+    <section>
+        <h3>Real Life Examples</h3>
+        <p>
+            When you use an ATM, you insert your card, enter your PIN, and withdraw money.
+            You do not know how the ATM connects to the bank system or processes your request.
+            The complex internal system is hodden from. That is Abstraction.
+        </p>
+        </section>
+        <h4>Example:</h4>
         <pre>
-        abstract class Shape {
-            abstract void draw();
+        abstract class Animal {
+            abstract void makeSound();  // abstract method
+            
+            void sleep() {
+                System.out.printIn("Sleeping...");
+            }
         }
-        class Circle extends Shape {
-            void draw() {
-                System.out.printIn("Drawing Circle");
+        class Dog extends Animal {
+            void makeSound() {
+                System.out.printIn("Bark");
             }
         }
         </pre>
+        <p>
+            In this example, the Animal class is Abtsract.
+            It contains an Abstract method called makeSound().
+            The Dog class inherits from the Animal and provides
+            its own implementation of makeSound().
+        </p>
     </section>
+
+    <section>
+       <h5>Why Abstraction is Important</h5> 
+       <ul>
+            <li>Reduces code complexity</li>
+            <li>Improves security by hiding internal details</li>
+            <li>Makes code easier to maintain</li>
+            <li>Forces structure in programs</li>
+       </ul>
+       </section>
+
+       <section>
+        <h6>Difference Between Abstraction and Encapsulation</h6>
+        <p>
+            Abtsraction hides implementation details and shows only essential features.
+            Encapsulation hides data by using private variables and controlling access 
+            through public methods.  
+        </p>
+       </section>
         <a href="index.html">Back Home</a>
     </body>
 </html>
