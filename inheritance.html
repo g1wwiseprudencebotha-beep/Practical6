@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>inheritance-OOP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body
+
+<header>
+<h1 class="animate-fade"> Inheritance</h1>
+<nav class="aniate-slide">
+ <a href="inde.html">Home</a>
+ <a href="classes.html">Classes</a>
+ <a href="encapsulation.html">Encapsulation</a>
+ <a href="inheritance.html">Inheritance</a>
+ <a href="polymorphism.html">Polymorphism</a>
+ <a href="abstraction.html">Abstraction</a>
+</nav>
+</header>
+
+<section class="animate-fade">
+<h2>Why Use Inheritance? </h2>
+<ul>
+<li>Code Reusability</li>
+<li>Reduces duplication</li>
+<li>Makes programs easier to maintain</li>
+<li>Creates logical relationship between classes</li>
+</ul>
+</section>
+
+<section class="animate-fade">
+<h2>Real-Life Example</h2>
+<p>
+Think of a <strong>vehicle</strong>as a parent class.
+A <strong>Car</strong>and<strong>Motorcycle</strong>are child classes.
+They inherit common features like speed and fuel,but they also have their own
+special features.
+</p>
+</section>
+
+<section class="animate-fade">
+<h2>Java Example</h2>
+
+<pre>
+class Vehicle{
+int speed;
+
+void move(){
+System.out.println("The vehicle is moving");
+ }
+}
+
+class Car extend Vehicle{
+int wheels=4;
+
+void display(){
+System.out.println("Car has"+ wheels +"wheels");
+} 
+}
+</pre>
+
+<p>
+Here, the <strong>Car</strong>class inherits the speed variables
+and move()method from <strong>Vehicle</strong>class.
+</p>
+</section>
+
+<section class="animate-fade"> 
+<h2>Types of Inheritance</h2>
+<ul>
+<li>Single Inheritance</li>
+<li>Multilevel Inheritance</li>
+<li>Hierachical Inheritance</li>
+</ul>
+</section>
+
+<section class="animate-fade">
+<h2>Conclusion</h2>
+<p>
+    Inheritance allows classes to build relationships with each other.
+    It promotes code reuse and helps developers create structured, organized
+    programs.
+</p>
+</section>
+
+</body>
+</html>
+
+
